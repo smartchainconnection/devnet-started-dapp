@@ -29,12 +29,10 @@ const Home = () => {
         <div className="m-auto login-container">
           <div className="card my-spacer text-center">
             <div className="card-body p-spacer mx-lg-spacer">
-              <Logo className="logo mb-spacer" />
-              <h4 className="mb-spacer">Elrond Delegation Manager</h4>
-              <p className="lead mb-spacer">
-                Delegate Elrond ({egldLabel}) and earn up to 25% APY!
-              </p>
-              <p className="mb-spacer">Please select your login method:</p>
+              <!--Logo className="logo mb-spacer" /-->
+              <img src="./../assets/images/smart-chain-connection-delegation-manager-logo.png" />
+              <h4 className="mb-spacer">Delegation Manager</h4>              
+              <h5 className="mb-spacer">Login method:</h5>
               <div>
                 <a
                   href={process.env.PUBLIC_URL + '/ledger'}
