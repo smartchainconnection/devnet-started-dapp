@@ -29,7 +29,7 @@ const Home = () => {
         <div className="m-auto login-container">
           <div className="card my-spacer text-center">
             <div className="card-body p-spacer mx-lg-spacer">
-              <img src="./../assets/images/smart-chain-connection-delegation-manager-logo.png" />
+              <img src="/../assets/images/smart-chain-connection-delegation-manager-logo.png" />
               <h4 className="mb-spacer">Delegation Manager</h4>              
               <h5 className="mb-spacer">Login method:</h5>
               <div>
